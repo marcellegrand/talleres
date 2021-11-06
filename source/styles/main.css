@@ -1,0 +1,261 @@
+@charset "UTF-8";
+.div_full_container {
+  max-width: 1280px;
+  min-width: 520px;
+  min-height: 100vh;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  background: #ebeef2;
+  border-radius: 12px;
+}
+
+.div_full_container header {
+  max-width: 100%;
+}
+
+.div_full_container main {
+  max-width: 100%;
+}
+
+.div_full_container footer {
+  max-width: 100%;
+  font-size: 16px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.div_rotules {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.div_search {
+  background: url("../../images/edifices.jpg");
+  background-position: center;
+  height: 100px;
+  border: 2px solid blue;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.div_navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+}
+
+.div_content_left {
+  margin-top: 20px;
+}
+
+.div_content_right {
+  margin-top: 20px;
+}
+
+/*ANCHO MÍNIMO DEL VIEWPORT*/
+@media (min-width: 760px) {
+  .div_content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .div_content_left {
+    width: 25%;
+    margin-right: 10px;
+  }
+  .div_content_right {
+    width: 75%;
+    margin-left: 10px;
+  }
+}
+
+/*ANCHO MÁXIMO DEL VIEWPORT*/
+@media (max-width: 759px) {
+  .div_content_left {
+    width: 100%;
+  }
+  .div_content_right {
+    width: 100%;
+  }
+}
+
+.obj_search_main {
+  background: white;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 50px;
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.img_search_main {
+  width: 25px;
+  height: 25px;
+}
+
+.txt_search_main {
+  border: none;
+  width: 85%;
+  height: 50%;
+}
+
+.btn_search_main {
+  border: none;
+  border-radius: 8px;
+  height: 75%;
+  width: 100px;
+  background: blue;
+  color: white;
+}
+
+.obj_search_place {
+  background: white;
+  margin-right: 10px;
+  height: 50px;
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.txt_search_place {
+  border: none;
+}
+
+.img_search_place {
+  width: 15px;
+  height: 15px;
+}
+
+.obj_card {
+  margin-bottom: 20px;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  background: white;
+  border-radius: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.div_card_left {
+  width: 15%;
+  margin-right: 10px;
+}
+
+.div_card_right {
+  width: 85%;
+  margin-left: 10px;
+}
+
+.card_img {
+  width: 120px;
+  height: 120px;
+  border: blue solid 2px;
+  border-radius: 6px;
+}
+
+.card_button {
+  border: green solid 2px;
+  border-radius: 6px;
+  color: green;
+  background: none;
+}
+
+.card_icon {
+  width: 15px;
+  height: 15px;
+}
+
+.div_card_ending {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.div_card_ending_right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.ul_list_countries {
+  list-style-type: none;
+}
+
+.p_rotule_primary {
+  font-size: 24px;
+  font-weight: bolder;
+  margin-right: 5px;
+}
+
+.p_rotule_secondary {
+  font-size: 18px;
+  margin-right: 5px;
+}
+
+.navigation_button {
+  border: blue solid 1px;
+  color: blue;
+  min-width: 40px;
+  height: 30px;
+}
+
+.navigation_button:hover {
+  background: red;
+  color: yellow;
+}
+/*# sourceMappingURL=main.css.map */
